@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<!-- bean definitions here -->
+	<bean id="greetings" class="com.spring.core.Greetings">
+		<property name="message" value="Hello Spring"></property>
+	</bean>
+
+	<bean id="contextStart" class="com.spring.core.listeners.ContextStartListener">
+		
+	</bean>
+</beans>
