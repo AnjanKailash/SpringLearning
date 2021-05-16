@@ -9,5 +9,12 @@ public class Application {
 		//context.start();
 		Greetings greetings = (Greetings) context.getBean("greetings");
 		System.out.println(greetings.getMessage());
+		try {
+			java.util.concurrent.TimeUnit.SECONDS.sleep(5);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		context.stop();
 	}
 }

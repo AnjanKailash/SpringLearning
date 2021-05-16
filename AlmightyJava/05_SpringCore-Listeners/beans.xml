@@ -10,6 +10,7 @@
 	</bean>
 
 	<bean id="contextStart" class="com.spring.core.listeners.ContextStartListener">
-		
 	</bean>
+	
+	<bean id="contextStop" class="com.spring.core.listeners.ContextStopListener"></bean>
 </beans>
