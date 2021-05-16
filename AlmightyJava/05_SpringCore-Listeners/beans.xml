@@ -13,4 +13,6 @@
 	</bean>
 	
 	<bean id="contextStop" class="com.spring.core.listeners.ContextStopListener"></bean>
+	
+	<bean id="contextRefresh" class="com.spring.core.listeners.ContextRefreshListener"></bean>
 </beans>
